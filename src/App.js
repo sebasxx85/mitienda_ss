@@ -12,8 +12,7 @@ function App() {
         <NavBar/>
           <Routes>
             <Route path="/" element = {<ItemListContainer greet = "Contenido Desde una Props "/>}/>
-            <Route path="/" element = {<ItemDetailContainer greet = "Detalle Producto" />}/>
-            {/**<ItemCount stock={10} initial={1} /> **/}
+            <Route path="/" element = {<ItemDetailContainer greet = "Detalle Producto" />}/>                
           </Routes>
     </BrowserRouter> 
   </div>

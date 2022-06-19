@@ -6,7 +6,7 @@ export default function ItemCount({ stock, initial}) {
     function suma() {
         if (stock <= cant) {
             setCount(cant +1);
-        }else{alert("No se puede sumar")}  
+        } 
     }
 
     function resta() {
