@@ -6,7 +6,6 @@ export default function ItemDetail() {
         <h1>{item.name}</h1>
         <p>{item.description}</p>
         <p>{item.price}</p>
-
     </div>
   )
 }
